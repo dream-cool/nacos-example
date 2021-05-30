@@ -16,7 +16,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 配置内容：useLocalCache=true
  */
 @SpringBootApplication
-@NacosPropertySource(dataId = "example", autoRefreshed = true)
+@NacosPropertySource(dataId = "example", groupId = "group", autoRefreshed = true)
 public class NacosConfigApplication {
 
     public static void main(String[] args) {
